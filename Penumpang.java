@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Penumpang {
 
     private int id;
@@ -14,3 +15,18 @@ public class Penumpang {
         System.out.println("Penumpang " + nama + " berhasil login");
     }
 }
+=======
+class Penumpang extends Pengguna {
+    private int id;
+
+    public Penumpang(int id, String nama) {
+        super(nama);
+        this.id = id;
+    }
+
+    @Override
+    void login() {
+        System.out.println("Penumpang " + nama + " login");
+    }
+}
+>>>>>>> 814391c729f1673335106a57c7ed231e6a56165b

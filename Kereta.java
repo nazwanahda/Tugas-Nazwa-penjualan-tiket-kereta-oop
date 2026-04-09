@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Kereta {
 
     private String namaKereta;
@@ -22,3 +23,18 @@ public class Kereta {
         return harga;
     }
 }
+=======
+class Kereta {
+    String namaKereta;
+    String rute;
+
+    public Kereta(String namaKereta, String rute) {
+        this.namaKereta = namaKereta;
+        this.rute = rute;
+    }
+
+    void infoKereta() {
+        System.out.println("Kereta: " + namaKereta + " | Rute: " + rute);
+    }
+}
+>>>>>>> 814391c729f1673335106a57c7ed231e6a56165b
